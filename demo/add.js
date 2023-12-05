@@ -1,1 +1,1 @@
-<div>happy</div>
+let x = 10, y = 7;
