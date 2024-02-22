@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Research at Lupleg
 
-## Getting Started
+This repository contains the research conducted at Lupleg. It includes various topics and findings related to our research projects.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Introduction](#introduction)
+- [Research Projects](#research-projects)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introduction
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+In this repository, you will find the research work carried out by the Lupleg team. Our research focuses on [insert brief overview of research focus].
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Research Projects
 
-## Learn More
+### Project 1
 
-To learn more about Next.js, take a look at the following resources:
+- Description: [insert description of project 1]
+- Key Findings: [summarize key findings of project 1]
+- Code: [if applicable, provide links to code repositories or code samples]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Project 2
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Description: [insert description of project 2]
+- Key Findings: [summarize key findings of project 2]
+- Code: [if applicable, provide links to code repositories or code samples]
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We welcome contributions from the research community. If you are interested in collaborating or have any suggestions, please feel free to reach out to us.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This repository is licensed under the [insert license name]. Please see the [LICENSE](LICENSE) file for more details.
