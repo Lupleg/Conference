@@ -1,8 +1,8 @@
-# Vanilla Template
+# React UI Template
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/your-username/vanilla-template/blob/main/LICENSE)
 
-A collection of Vanilla Templates for web development projects.
+A collection of UI Templates for web development projects.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ A collection of Vanilla Templates for web development projects.
 
 ## Introduction
 
-The Vanilla Template repository is a collection of ready-to-use templates for web development projects. These templates are built using pure HTML, CSS, and JavaScript, without any additional frameworks or libraries. They serve as a starting point for developers who prefer to work with vanilla technologies and want to avoid the overhead of complex frameworks.
+The React UI Template repository is a collection of ready-to-use templates for web development projects. These templates are built using pure HTML, CSS, and JavaScript, without any additional frameworks or libraries. They serve as a starting point for developers who prefer to work with vanilla technologies and want to avoid the overhead of complex frameworks.
 
 ## Features
 
@@ -26,4 +26,4 @@ The Vanilla Template repository is a collection of ready-to-use templates for we
 
 ## Installation
 
-To use the Vanilla Templates, simply clone this repository to your local machine:
+To use the React UI Templates, simply clone this repository to your local machine:
