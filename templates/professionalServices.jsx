@@ -6,32 +6,7 @@ import { Input } from "@/components/ui/input";
 export default function Component() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
-      <header className="bg-primary text-primary-foreground py-4 px-6 flex items-center justify-between">
-        <Link href="#" className="text-xl font-bold" prefetch={false}>
-          LupLeg
-        </Link>
-        <nav className="hidden md:flex items-center gap-6">
-          <Link href="#" className="hover:underline" prefetch={false}>
-            Home
-          </Link>
-          <Link href="#" className="hover:underline" prefetch={false}>
-            About
-          </Link>
-          <Link href="#" className="hover:underline" prefetch={false}>
-            Services
-          </Link>
-          <Link href="#" className="hover:underline" prefetch={false}>
-            Portfolio
-          </Link>
-          <Link href="#" className="hover:underline" prefetch={false}>
-            Contact
-          </Link>
-        </nav>
-        <Button variant="secondary" className="md:hidden">
-          <MenuIcon className="h-6 w-6" />
-          <span className="sr-only">Toggle Menu</span>
-        </Button>
-      </header>
+      
       <main className="flex-1">
         <section className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground py-16 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-8 items-center">
