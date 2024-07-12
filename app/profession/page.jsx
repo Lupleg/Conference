@@ -6,7 +6,6 @@ import { Input } from "@/components/ui/input";
 export default function Component() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
-      
       <main className="flex-1">
         <section className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground py-16 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-8 items-center">
@@ -14,11 +13,13 @@ export default function Component() {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
                 Welcome to LupLeg
               </h1>
-              <p className="text-lg md:text-xl mb-8">
+              <p className="text-xl md:text-xl mb-8">
                 Unleash your digital potential with our innovative solutions.
               </p>
               <div className="flex gap-4">
-                <Button>Get Started</Button>
+                <Button className="hover:bg-white text-md hover:text-black transition-colors duration-300">
+                  Get Started
+                </Button>
                 <Button variant="outline">Learn More</Button>
               </div>
             </div>
@@ -37,32 +38,32 @@ export default function Component() {
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Our Features
               </h2>
-              <p className="text-muted-foreground text-lg">
+              <p className="text-muted-foreground text-2xl">
                 Discover how we can help your business thrive.
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-card p-6 rounded-lg shadow-md">
                 <RocketIcon className="h-12 w-12 text-primary mb-4" />
-                <h3 className="text-xl font-bold mb-2">Rapid Development</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-2xl font-bold mb-2">Rapid Development</h3>
+                <p className="text-muted-foreground text-xl">
                   Our agile approach ensures fast and efficient delivery of your
                   projects.
                 </p>
               </div>
               <div className="bg-card p-6 rounded-lg shadow-md">
                 <BoltIcon className="h-12 w-12 text-primary mb-4" />
-                <h3 className="text-xl font-bold mb-2">Scalable Solutions</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-2xl font-bold mb-2 ">Scalable Solutions</h3>
+                <p className="text-muted-foreground text-xl">
                   Our platforms are designed to grow with your business needs.
                 </p>
               </div>
               <div className="bg-card p-6 rounded-lg shadow-md">
                 <ShieldIcon className="h-12 w-12 text-primary mb-4" />
-                <h3 className="text-xl font-bold mb-2">
+                <h3 className="text-2xl font-bold mb-2">
                   Secure Infrastructure
                 </h3>
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground text-xl">
                   We prioritize data security and privacy to protect your
                   valuable assets.
                 </p>
@@ -73,10 +74,10 @@ export default function Component() {
         <section className="bg-muted py-16 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              <h2 className="text-4xl md:text-4xl font-bold mb-4">
                 What Our Clients Say
               </h2>
-              <p className="text-muted-foreground text-lg">
+              <p className="text-muted-foreground text-2xl">
                 Hear from the people who have experienced our services.
               </p>
             </div>
@@ -88,11 +89,13 @@ export default function Component() {
                     <AvatarFallback>C1</AvatarFallback>
                   </Avatar>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold">John Doe</h4>
-                    <p className="text-muted-foreground">CEO, Acme Inc.</p>
+                    <h4 className="text-2xl font-bold">John Doe</h4>
+                    <p className="text-muted-foreground text-xl">
+                      CEO, Acme Inc.
+                    </p>
                   </div>
                 </div>
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground text-xl">
                   "LupLeg has been an invaluable partner in our digital\n
                   transformation. Their expertise and dedication have been\n
                   instrumental in the success of our project."
@@ -105,13 +108,13 @@ export default function Component() {
                     <AvatarFallback>C2</AvatarFallback>
                   </Avatar>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold">Jane Smith</h4>
-                    <p className="text-muted-foreground">
+                    <h4 className="text-2xl font-bold">Jane Smith</h4>
+                    <p className="text-muted-foreground text-xl">
                       Marketing Manager, Globex Corp.
                     </p>
                   </div>
                 </div>
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground text-xl">
                   "The team at LupLeg has consistently delivered high-quality\n
                   work and exceeded our expectations. We highly recommend\n
                   their services."
@@ -124,13 +127,13 @@ export default function Component() {
                     <AvatarFallback>C3</AvatarFallback>
                   </Avatar>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold">Michael Johnson</h4>
-                    <p className="text-muted-foreground">
+                    <h4 className="text-2xl font-bold">Michael Johnson</h4>
+                    <p className="text-muted-foreground text-xl">
                       CTO, Technosoft Solutions
                     </p>
                   </div>
                 </div>
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground text-xl">
                   "Working with LupLeg has been a game-changer for our\n
                   business. Their innovative solutions have helped us stay\n
                   ahead of the competition."
@@ -142,26 +145,26 @@ export default function Component() {
       </main>
       <section className="bg-background py-16 md:py-24 lg:py-32">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="grid md:grid-cols-2 gap-24 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              <h2 className="text-4xl md:text-4xl font-bold mb-4">
                 About LupLeg
               </h2>
-              <p className="text-muted-foreground text-lg mb-8">
+              <p className="text-muted-foreground text-2xl mb-8">
                 Discover the story behind our company and the team that drives
                 our success.
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div className="bg-card p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-bold mb-2">Our History</h3>
-                  <p className="text-muted-foreground">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
+                <div className="bg-card p-6 max-w-lg min-h-64 rounded-lg shadow-md">
+                  <h3 className="text-2xl font-bold mb-4">Our History</h3>
+                  <p className="text-muted-foreground text-xl ">
                     LupLeg was founded in 2015 with the mission to empower
                     businesses through innovative digital solutions.
                   </p>
                 </div>
-                <div className="bg-card p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-bold mb-2">Our Team</h3>
-                  <p className="text-muted-foreground">
+                <div className="bg-card p-6 rounded-lg shadow-md max-w-lg min-h-64">
+                  <h3 className="text-2xl font-bold mb-4">Our Team</h3>
+                  <p className="text-muted-foreground text-xl">
                     Our talented team of experts is dedicated to delivering
                     exceptional results for our clients.
                   </p>
@@ -181,58 +184,58 @@ export default function Component() {
       <section className="py-16 md:py-24 lg:py-32">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-4xl md:text-4xl font-bold mb-4">
               Our Services
             </h2>
-            <p className="text-muted-foreground text-lg">
+            <p className="text-muted-foreground text-2xl">
               Explore the wide range of services we offer.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-card p-6 rounded-lg shadow-md">
               <CodeIcon className="h-12 w-12 text-primary mb-4" />
-              <h3 className="text-xl font-bold mb-2">Web Development</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-2xl font-bold mb-2">Web Development</h3>
+              <p className="text-muted-foreground text-xl">
                 Our team of skilled developers create custom, responsive
                 websites that drive results.
               </p>
             </div>
             <div className="bg-card p-6 rounded-lg shadow-md">
               <BrushIcon className="h-12 w-12 text-primary mb-4" />
-              <h3 className="text-xl font-bold mb-2">UI/UX Design</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-2xl font-bold mb-2">UI/UX Design</h3>
+              <p className="text-muted-foreground text-xl">
                 Crafting intuitive and visually appealing user experiences that
                 captivate your audience.
               </p>
             </div>
             <div className="bg-card p-6 rounded-lg shadow-md">
               <BarChartIcon className="h-12 w-12 text-primary mb-4" />
-              <h3 className="text-xl font-bold mb-2">Digital Marketing</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-2xl font-bold mb-2">Digital Marketing</h3>
+              <p className="text-muted-foreground text-xl">
                 Leveraging data-driven strategies to amplify your online
                 presence and drive growth.
               </p>
             </div>
             <div className="bg-card p-6 rounded-lg shadow-md">
               <DatabaseIcon className="h-12 w-12 text-primary mb-4" />
-              <h3 className="text-xl font-bold mb-2">Database Solutions</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-2xl font-bold mb-2">Database Solutions</h3>
+              <p className="text-muted-foreground text-xl">
                 Designing and implementing secure and scalable database systems
                 to manage your data.
               </p>
             </div>
             <div className="bg-card p-6 rounded-lg shadow-md">
               <SmartphoneIcon className="h-12 w-12 text-primary mb-4" />
-              <h3 className="text-xl font-bold mb-2">Mobile Development</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-2xl font-bold mb-2">Mobile Development</h3>
+              <p className="text-muted-foreground text-xl">
                 Crafting intuitive and high-performing mobile applications that
                 engage your users.
               </p>
             </div>
             <div className="bg-card p-6 rounded-lg shadow-md">
               <CloudIcon className="h-12 w-12 text-primary mb-4" />
-              <h3 className="text-xl font-bold mb-2">Cloud Solutions</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-2xl font-bold mb-2">Cloud Solutions</h3>
+              <p className="text-muted-foreground text-xl">
                 Leveraging cloud technologies to optimize your infrastructure
                 and drive innovation.
               </p>
@@ -243,10 +246,10 @@ export default function Component() {
       <section className="bg-muted py-16 md:py-24 lg:py-32">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-4xl md:text-4xl font-bold mb-4">
               Our Portfolio
             </h2>
-            <p className="text-muted-foreground text-lg">
+            <p className="text-muted-foreground text-2xl">
               Check out some of our recent client projects.
             </p>
           </div>
@@ -259,8 +262,8 @@ export default function Component() {
                 alt="Portfolio 1"
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-xl font-bold mb-2">Acme Inc. Website</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-2xl font-bold mb-2">Acme Inc. Website</h3>
+              <p className="text-muted-foreground text-xl">
                 Designed and developed a modern, responsive website for a
                 leading manufacturing company.
               </p>
@@ -273,8 +276,8 @@ export default function Component() {
                 alt="Portfolio 2"
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-xl font-bold mb-2">Globex Corp. App</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-2xl font-bold mb-2">Globex Corp. App</h3>
+              <p className="text-muted-foreground text-xl">
                 Created a user-friendly mobile application to streamline
                 operations for a global enterprise.
               </p>
@@ -287,8 +290,8 @@ export default function Component() {
                 alt="Portfolio 3"
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-xl font-bold mb-2">Technosoft Solutions</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-2xl font-bold mb-2">Technosoft Solutions</h3>
+              <p className="text-muted-foreground text-xl">
                 Delivered a scalable and secure cloud infrastructure for a
                 leading technology company.
               </p>
@@ -303,12 +306,12 @@ export default function Component() {
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Get in Touch
               </h2>
-              <p className="text-muted-foreground text-lg mb-8">
+              <p className="text-muted-foreground text-xl mb-8">
                 Have a project in mind? Let's discuss how we can help.
               </p>
               <form className="space-y-4">
                 <Input type="text" placeholder="Name" className="w-full" />
-                <Input type="email" placeholder />
+                <Input type="email" placeholder="Email" />
               </form>
             </div>
           </div>
