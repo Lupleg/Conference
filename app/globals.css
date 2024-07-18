@@ -67,3 +67,12 @@
       @apply bg-background text-foreground;
     }
   }
+
+  .text-red {
+  color: red;
+}
+
+.text-black {
+  color: rgb(16, 16, 16);
+}
+
