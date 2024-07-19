@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function ChallengeCard() {
   return (
-    <Card className="group rounded-xl w-[280px] my-4">
+    <Card className="group rounded-xl w-[290px] my-4">
       <div className=" h-[50px] w-full rounded-xl">
         <img
           src="/profile-sample.jpeg"
