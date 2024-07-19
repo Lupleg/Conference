@@ -10,16 +10,16 @@ import Image from "next/image";
 function RightSideBar() {
   const [date, setDate] = useState(new Date());
   return (
-    <div className="px-2 shadow-sm flex flex-col items-center mt-16">
+    <div className="shadow-sm flex flex-col items-center mt-1">
       <Calendar
         mode="single"
         selected={date}
         onSelect={setDate}
-        className="rounded-3xl border"
+        className="rounded-3xl border w-full flex flex-col items-center space-x-2 bg-white"
       />
       <div className="mt-6">
         <h1 className="text-xl font-bold pb-2">Upcoming Challenges</h1>
-        <div className="border p-4 rounded-3xl">
+        <div className="border p-4 rounded-3xl bg-white">
           <div className="flex gap-2 mt-2 mb-3">
             <span className="px-2 py-1 bg-green-950 text-white rounded-full text-sm">
               Beginner
