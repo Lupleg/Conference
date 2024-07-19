@@ -10,49 +10,62 @@ import { TbFolderOpen } from "react-icons/tb";
 
 function home() {
   return (
-    <section classname="flex items-center w-full bg-blue-300 justify-center h-screen">
-      <div className="container border-none rounded-lg max-w-3xl mt-20  h-full bg-violet-600">
-        <h2 className="ml-2 pt-3 text-white text-md">Online courses</h2>
-        <p className="ml-2 text-relaxed pt-3 text-white text-3xl">
-          Sharpen your skills with Professional online courses
-        </p>
+    <>
+      <section className="bg-blue-100 flex flex-col py-8">
+        <div className="container   border-none rounded-lg max-w-full md:max-w-2xl lg:max-w-3xl px-4  sm:px-10  md:px-16 lg:px-16 mt-32  h-full bg-violet-600">
+          <h2 className="ml-2 pt-3 text-white text-md">Online courses</h2>
+          <p className="ml-2 text-relaxed pt-3 text-white text-3xl">
+            Sharpen your skills with Professional online courses
+          </p>
 
-        <button className="ml-2 mt-4 text-md rounded-full bg-black mb-4 w-42 pl-4 hover:bg-white hover:text-black  h-10 text-white">
-          <div className="flex  items-center w-full">
-            join now
-            <div className="border-none w-10">
-              <IoIosArrowForward />
-            </div>
-          </div>
-        </button>
-      </div>
-
-      <div className="grid grid-cols-3 gap-8  max-w-3xl mt-8 w-full px-12">
-        <div className="border-box ml-2 bg-gray-200 p-2 rounded-2xl flex flex-col-4 items-center">
-          <div className="flex  items-center w-full">
-            <div className="border-none w-32 h-12 rounded-full bg-white">
-              <LuPencilRuler className="items-center flex w-12 h-8 pt-2" />
-            </div>
-            <p className="mx-2">2/8 watched</p>
-            <h1 className="mt-1">UI/UX Design</h1>
-
-            <PiDotsThreeVerticalBold className="items-center ml-2 flex w-12 h-8 pt-2" />
+          <div className="flex flex-col">
+            <button className="ml-2 mt-4 text-lg rounded-full hover:bg-white bg-black  mb-4 w-36 pl-4 h-10 text-white">
+              <div className="flex  items-center w-full">
+                join now
+                <div className="border-none ml-2 bg-black rounded-full  w-10 h-10">
+                  <IoIosArrowForward className="w-10 h-10" />
+                </div>
+              </div>
+            </button>
           </div>
         </div>
-        <div className="border-box border-2">
-          <HiOutlineSquare2Stack />
-          <p>3/8 </p>
-          <h1>Branding</h1>
-          <PiDotsThreeVerticalBold />
+
+        <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  flex-row-3 w-auto h-full   gap-8 mt-8 ">
+          <div className="flex flex-row-3  bg-white py-4 px-4 h-17 w-92 rounded-3xl gap-2 justify-center items-center">
+            <div className="border bg-violet-200 items-center px-2 py-2   w-12 h-12 rounded-full">
+              <LuPencilRuler className=" w-6 h-6 items-center" />
+            </div>
+            <div>
+              <p>2/8 watched</p>
+              <h1>UI/UX Design</h1>
+            </div>
+            <PiDotsThreeVerticalBold className=" rounded-full w-8 h-8 items-center" />
+          </div>
+
+          <div className="flex flex-row-3  bg-white py-4 px-4 h-17 w-92 rounded-3xl gap-2 justify-center items-center">
+            <div className="border bg-pink-200 items-center px-2 py-2   w-12 h-12 rounded-full">
+              <HiOutlineSquare2Stack className=" w-6 h-6 items-center" />
+            </div>
+            <div>
+              <p>2/8 watched</p>
+              <h1>UI/UX Design</h1>
+            </div>
+            <PiDotsThreeVerticalBold className=" rounded-full w-8 h-8 items-center" />
+          </div>
+
+          <div className="flex flex-row-3  bg-white py-4 px-4 h-17 w-92 rounded-3xl gap-2 justify-center items-center">
+            <div className="border bg-blue-100 items-center px-2 py-2   w-12 h-12 rounded-full">
+              <TbFolderOpen className=" w-6 h-6 items-center" />
+            </div>
+            <div>
+              <p>2/8 watched</p>
+              <h1>UI/UX Design</h1>
+            </div>
+            <PiDotsThreeVerticalBold className=" rounded-full w-8 h-8 items-center" />
+          </div>
         </div>
-        <div className="border-box border-2 bg-white">
-          <TbFolderOpen />
-          <p>6/12 watched</p>
-          <h1>Font-End</h1>
-          <PiDotsThreeVerticalBold />
-        </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
 export default home;
