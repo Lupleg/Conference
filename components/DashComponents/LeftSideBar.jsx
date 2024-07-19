@@ -5,23 +5,24 @@ import { MdLeaderboard } from "react-icons/md";
 import { RiNewsLine } from "react-icons/ri";
 import { Separator } from "@/components/ui/separator";
 import { CiMenuKebab } from "react-icons/ci";
+import Link  from "next/link";
 
 function LeftSideBar() {
   return (
-    <div className="w-72 flex flex-col justify-start items-center fixed space-y-2 h-[473px] pt-2 left-0 top-20 z-40 overflow-y-scroll">
+    <div className="w-72 lg:flex flex-col justify-start items-center fixed space-y-2 h-[473px] pt-2 left-0 top-20 z-40 overflow-y-scroll hidden">
       <div className="flex flex-col space-y-2 w-full pt-2 pb-2 px-3">
-        <button className="rounded-lg bg-gray-100 w-full flex px-2 h-12 justify-start items-center space-x-2 ">
-          <BsBrowserSafari className="h-6 w-6" /> <span>Browse</span>
-        </button>
-        <button className="rounded-lg hover:bg-gray-100 w-full flex px-2 h-12 justify-start items-center space-x-2 ">
-          <GrWorkshop className="h-6 w-6" /> <span>Workshops</span>
-        </button>
-        <button className="rounded-lg hover:bg-gray-100 w-full flex px-2 h-12 justify-start items-center space-x-2 ">
-          <MdLeaderboard className="h-6 w-6" /> <span>Leaderboard</span>
-        </button>
-        <button className="rounded-lg hover:bg-gray-100 w-full flex px-2 h-12 justify-start items-center space-x-2">
-          <RiNewsLine className="h-6 w-6" /> <span>NewsLetter</span>
-        </button>
+        <Link href="/courses" className="rounded-lg bg-gray-100 w-full flex px-2 h-12 justify-start items-center space-x-2 ">
+          <BsBrowserSafari className="h-6 w-6 text-green-950" /> <span>Browse</span>
+        </Link>
+        <Link href="#" className="rounded-lg hover:bg-gray-100 w-full flex px-2 h-12 justify-start items-center space-x-2 ">
+          <GrWorkshop className="h-6 w-6 text-green-950" /> <span>Workshops</span>
+        </Link>
+        <Link href="#" className="rounded-lg hover:bg-gray-100 w-full flex px-2 h-12 justify-start items-center space-x-2 ">
+          <MdLeaderboard className="h-6 w-6 text-green-950" /> <span>Leaderboard</span>
+        </Link>
+        <Link href="#" className="rounded-lg hover:bg-gray-100 w-full flex px-2 h-12 justify-start items-center space-x-2">
+          <RiNewsLine className="h-6 w-6 text-green-950" /> <span>NewsLetter</span>
+        </Link>
       </div>
       <div className="w-full px-3">
         <div className="border p-3 rounded-lg mb-4">

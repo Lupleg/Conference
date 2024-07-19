@@ -17,7 +17,9 @@ export default function RootLayout({ children }) {
         <DashNav />
         <div className="">
           <LeftSideBar />
+          <div className="p-8 px-4 lg:ml-72 mt-14 mr-0">
           {children}
+          </div>
         </div>
       </body>
     </html>
