@@ -5,10 +5,10 @@ import { MdBrandingWatermark } from "react-icons/md";
 
 export default function CardSection() {
   return (
-    <div className="container mx-auto p-4 flex flex-wrap justify-start gap-6 pt-16">
+    <div className="container  p-4 mx-10 flex flex-row items-center justify-start gap-10 pt-16">
       <div className="bg-white rounded-3xl shadow-lg  overflow-hidden w-80">
         <Image
-          src="/image3.jpg"
+          src="/3.jpg"
           alt="picture"
           width={320}
           height={160}
@@ -20,12 +20,12 @@ export default function CardSection() {
             <h2 className="text-2xl font-bold text-blue-400">FRONT-END</h2>
           </div>
           <p className="mb-4 text-xl font-semibold">
-            Beginner's Guide to becoming a professional Front-End Developer.
+            Beginner's Guide to Front-End Developer.
           </p>
           <hr className="border-t-4 border-violet-500 my-4" />
           <div className="flex items-center">
             <Image
-              src="/image1.jpg"
+              src="/1.jpg"
               alt="profile"
               width={48}
               height={48}
@@ -42,7 +42,7 @@ export default function CardSection() {
 
       <div className="bg-white rounded-3xl shadow-lg overflow-hidden w-80">
         <Image
-          src="/image5.jpg"
+          src="/1.jpg"
           alt="picture"
           width={320}
           height={160}
@@ -59,7 +59,7 @@ export default function CardSection() {
           <hr className="border-t-4 border-violet-500 my-4" />
           <div className="flex items-center">
             <Image
-              src="/image1.jpg"
+              src="/1.jpg"
               alt="profile"
               width={48}
               height={48}
@@ -76,7 +76,7 @@ export default function CardSection() {
 
       <div className="bg-white rounded-3xl shadow-lg overflow-hidden w-80">
         <Image
-          src="/image2.jpg"
+          src="/2.jpg"
           alt="picture"
           width={320}
           height={160}
@@ -93,7 +93,7 @@ export default function CardSection() {
           <hr className="border-t-4 border-violet-500 my-4" />
           <div className="flex items-center">
             <Image
-              src="/image1.jpg"
+              src="/1.jpg"
               alt="profile"
               width={48}
               height={48}
