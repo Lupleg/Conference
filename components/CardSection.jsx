@@ -5,7 +5,7 @@ import { MdBrandingWatermark } from "react-icons/md";
 
 export default function CardSection() {
   return (
-    <div className="container p-4 mx-2 sm:mx-10 flex flex-col sm:flex-row items-center justify-start gap-10 pt-16">
+    <div className="container p-4 mx-auto flex flex-col sm:flex-row items-center sm:items-start justify-center sm:justify-start gap-10 pt-16">
       <div className="bg-white rounded-3xl shadow-lg overflow-hidden w-full sm:w-80">
         <div className="w-full h-40 relative">
           <Image
@@ -13,7 +13,7 @@ export default function CardSection() {
             alt="picture"
             width={320}
             height={160}
-            className="w-full h-40 object-cover rounded-3xl"
+            className="w-full h-40 object-cover"
           />
         </div>
         <div className="p-6">
@@ -42,14 +42,16 @@ export default function CardSection() {
         </div>
       </div>
 
-      <div className="bg-white rounded-3xl shadow-lg overflow-hidden w-80">
-        <Image
-          src="/1.jpg"
-          alt="picture"
-          width={320}
-          height={160}
-          className="w-full h-40 object-cover rounded-3xl"
-        />
+      <div className="bg-white rounded-3xl shadow-lg overflow-hidden w-full sm:w-80">
+        <div className="w-full h-40 relative">
+          <Image
+            src="/1.jpg"
+            alt="picture"
+            width={320}
+            height={160}
+            className="w-full h-40 object-cover"
+          />
+        </div>
         <div className="p-6">
           <div className="flex items-center mb-4">
             <MdOutlineDesignServices className="h-8 w-8 mr-2 text-violet-500" />
@@ -76,14 +78,16 @@ export default function CardSection() {
         </div>
       </div>
 
-      <div className="bg-white rounded-3xl shadow-lg overflow-hidden w-80">
-        <Image
-          src="/2.jpg"
-          alt="picture"
-          width={320}
-          height={160}
-          className="w-full h-40 object-cover rounded-3xl"
-        />
+      <div className="bg-white rounded-3xl shadow-lg overflow-hidden w-full sm:w-80">
+        <div className="w-full h-40 relative">
+          <Image
+            src="/2.jpg"
+            alt="picture"
+            width={320}
+            height={160}
+            className="w-full h-40 object-cover"
+          />
+        </div>
         <div className="p-6">
           <div className="flex items-center mb-4">
             <MdBrandingWatermark className="h-8 w-8 mr-2 text-pink-400" />
