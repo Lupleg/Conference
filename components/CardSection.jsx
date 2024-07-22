@@ -5,15 +5,17 @@ import { MdBrandingWatermark } from "react-icons/md";
 
 export default function CardSection() {
   return (
-    <div className="container  p-4 mx-10 flex flex-row items-center justify-start gap-10 pt-16">
-      <div className="bg-white rounded-3xl shadow-lg  overflow-hidden w-80">
-        <Image
-          src="/3.jpg"
-          alt="picture"
-          width={320}
-          height={160}
-          className="w-full h-40 object-cover rounded-3xl"
-        />
+    <div className="container p-4 mx-2 sm:mx-10 flex flex-col sm:flex-row items-center justify-start gap-10 pt-16">
+      <div className="bg-white rounded-3xl shadow-lg overflow-hidden w-full sm:w-80">
+        <div className="w-full h-40 relative">
+          <Image
+            src="/3.jpg"
+            alt="picture"
+            width={320}
+            height={160}
+            className="w-full h-40 object-cover rounded-3xl"
+          />
+        </div>
         <div className="p-6">
           <div className="flex items-center mb-4">
             <RiCodeBlock className="h-8 w-8 mr-2 text-blue-400" />
