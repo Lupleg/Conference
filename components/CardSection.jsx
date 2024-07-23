@@ -1,4 +1,3 @@
-import { Avatar } from "@radix-ui/react-avatar";
 import Image from "next/image";
 import { MdOutlineDesignServices } from "react-icons/md";
 import { RiCodeBlock } from "react-icons/ri";
@@ -7,10 +6,10 @@ import { MdBrandingWatermark } from "react-icons/md";
 export default function CardSection() {
   return (
     <div className="container mx-auto p-4 flex flex-wrap justify-start gap-6 pt-16">
-      <div className="bg-white rounded-3xl shadow-lg overflow-hidden w-80">
+      <div className="bg-white rounded-3xl shadow-lg  overflow-hidden w-80">
         <Image
           src="/image3.jpg"
-          alt="profile"
+          alt="picture"
           width={320}
           height={160}
           className="w-full h-40 object-cover rounded-3xl"
@@ -25,15 +24,14 @@ export default function CardSection() {
           </p>
           <hr className="border-t-4 border-violet-500 my-4" />
           <div className="flex items-center">
-            <Avatar>
-              <Image
-                src="/image1.jpg"
-                alt="Avatar"
-                width={48}
-                height={48}
-                className="w-12 h-12 rounded-full mr-4"
-              />
-            </Avatar>
+            <Image
+              src="/image1.jpg"
+              alt="profile"
+              width={48}
+              height={48}
+              className="w-12 h-12 rounded-full mr-4"
+            />
+
             <div>
               <h3 className="text-lg font-semibold">Leonardo Samsul</h3>
               <h4 className="text-lg text-gray-600">Mentor</h4>
@@ -45,7 +43,7 @@ export default function CardSection() {
       <div className="bg-white rounded-3xl shadow-lg overflow-hidden w-80">
         <Image
           src="/image5.jpg"
-          alt="profile"
+          alt="picture"
           width={320}
           height={160}
           className="w-full h-40 object-cover rounded-3xl"
@@ -60,15 +58,14 @@ export default function CardSection() {
           </p>
           <hr className="border-t-4 border-violet-500 my-4" />
           <div className="flex items-center">
-            <Avatar>
-              <Image
-                src="/image1.jpg"
-                alt="Avatar"
-                width={48}
-                height={48}
-                className="w-12 h-12 rounded-full mr-4"
-              />
-            </Avatar>
+            <Image
+              src="/image1.jpg"
+              alt="profile"
+              width={48}
+              height={48}
+              className="w-12 h-12 rounded-full mr-4"
+            />
+
             <div>
               <h3 className="text-lg font-semibold">Bayu Salto</h3>
               <h4 className="text-lg text-gray-600">Mentor</h4>
@@ -80,7 +77,7 @@ export default function CardSection() {
       <div className="bg-white rounded-3xl shadow-lg overflow-hidden w-80">
         <Image
           src="/image2.jpg"
-          alt="profile"
+          alt="picture"
           width={320}
           height={160}
           className="w-full h-40 object-cover rounded-3xl"
@@ -95,15 +92,14 @@ export default function CardSection() {
           </p>
           <hr className="border-t-4 border-violet-500 my-4" />
           <div className="flex items-center">
-            <Avatar>
-              <Image
-                src="/image1.jpg"
-                alt="Avatar"
-                width={48}
-                height={48}
-                className="w-12 h-12 rounded-full mr-4"
-              />
-            </Avatar>
+            <Image
+              src="/image1.jpg"
+              alt="profile"
+              width={48}
+              height={48}
+              className="w-12 h-12 rounded-full mr-4"
+            />
+
             <div>
               <h3 className="text-lg font-semibold">Padhang Satrio</h3>
               <h4 className="text-lg text-gray-600">Mentor</h4>
