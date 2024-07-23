@@ -12,7 +12,7 @@ import {
 
  function ChallengesCarousel() {
   return (
-    <div>
+    <Link href='/courses'>
       <Carousel
       opts={{
         align: "start",
@@ -46,7 +46,7 @@ import {
         ))}
       </CarouselContent>
     </Carousel>
-    </div>
+    </Link>
   )
 }
 export default ChallengesCarousel
