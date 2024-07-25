@@ -15,7 +15,7 @@ function Card() {
               className="w-full h-48 object-cover"
             />
           </div>
-          <h2 className=" my-2 text-blue-600 mt-2 text-2xl flex  items-center">
+          <h2 className="font-bold my-2 text-blue-600 mt-2 text-2xl flex  items-center">
             <LuFilePlus2 className="mr-2" /> FRONT-END
           </h2>
           <p className=" w-full text-sm-2xl text-lg mb-2 font-bold">
@@ -33,7 +33,7 @@ function Card() {
             />
             <div>
               <p className="text-sm font-bold">Joshua Samsul</p>
-              <p className="text-xs text-gray-600">Mentor</p>
+              <p className="text-xs- text-gray-600">Mentor</p>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@ function Card() {
               className="w-full h-48 object-cover"
             />
           </div>
-          <h2 className="my-2 text-purple-600 mt-2 text-2xl flex items-center">
+          <h2 className="font-bold my-2 text-purple-600 mt-2 text-2xl flex items-center">
             <GiPencilRuler className="mr-2" /> UI/UX DESIGN
           </h2>
           <p className=" w-full text-sm-2xl text-lg mb-2 font-bold">
@@ -64,7 +64,7 @@ function Card() {
             />
             <div>
               <p className="text-sm font-bold">Joshua Samsul</p>
-              <p className="text-xs text-gray-600">Mentor</p>
+              <p className="text-xs- text-gray-600">Mentor</p>
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@ function Card() {
               className="w-full h-48 object-cover"
             />
           </div>
-          <h2 className="my-2 text-green-500 mt-2 text-2xl flex items-center">
+          <h2 className="my-2 font-bold text-green-500 mt-2 text-2xl flex items-center">
             <MdBrandingWatermark className="mr-2" /> BRANDING
           </h2>
           <p className="  w-full text-sm-2xl text-lg mb-2 font-bold">
@@ -95,7 +95,7 @@ function Card() {
             />
             <div>
               <p className="text-sm font-bold">Joshua Samsul</p>
-              <p className="text-xs text-gray600">Mentor</p>
+              <p className="text-xs- text-gray600">Mentor</p>
             </div>
           </div>
         </div>
