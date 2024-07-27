@@ -11,7 +11,7 @@ function Card() {
           <img src="/studyy.jpg" alt="" className="w-full h-full object-cover" />
         </div>
       </div>
-      <div className="p-2 text-purple-600 flex  text-2xl my-1 font-bold">
+      <div className="p-2 text-green-600 flex  text-2xl my-1 font-bold">
         <LuFilePlus2 className="mr-2" />
         <h2>FRONT-END</h2>
       </div>
@@ -21,13 +21,13 @@ function Card() {
       </p>
 
       <div className="flex justify-start mb-4 px-4">
-        <hr className="w-full border-none h-1 bg-green-600" />
+        <hr className="w-full border-none h-1 bg-black-600" />
       </div>
 
       <div className="flex items-center  ">
         <img src="/avator.jpg" alt="" className="w-12 h-12 rounded-full mr-4" />
         <div>
-          <p className="text-sm font-bold">Joshua Samsul</p>
+          <p className="text-sm text-black-600 font-bold">Joshua Samsul</p>
           <p className="text-xs text-gray-600">Mentor</p>
         </div>
       </div>
