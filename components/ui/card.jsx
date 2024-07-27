@@ -21,7 +21,7 @@ function Card() {
       </p>
 
       <div className="flex justify-start mb-4 px-4">
-        <hr className="w-full border-none h-1 bg-black-600" />
+        <hr className="w-full border-none h-1 bg-green-600" />
       </div>
 
       <div className="flex items-center  ">
