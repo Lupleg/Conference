@@ -5,7 +5,7 @@ import { LuFilePlus2 } from "react-icons/lu";
 
 function Card() {
   return (
-    <div className="shadow-lg bg-white rounded-3xl overflow-hidden sm:w-80 md:w-96 lg:w-1/4 border border-gray-200 mx-auto min-w-[400px] hover:shadow-lg hover:scale-110 transition duration-300 ease-out overflow-hidden ">
+    <div className=" shadow-lg bg-white rounded-3xl overflow-hidden  border border-gray-200 mx-auto hover:shadow-lg hover:scale-110 transition duration-300 ease-out justify-center ">
       <div>
         <div className=" mt-[-2] flexbox h-60 -mx-4 rounded-t-3xl relative  ">
           <img
