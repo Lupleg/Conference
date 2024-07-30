@@ -20,7 +20,7 @@ export default function TermsPage() {
         <p className="text-gray-700 mb-4 text-base sm:text-lg md:text-xl">
           These Terms and Conditions ("Terms", "Terms and Conditions") govern
           your relationship with Lupleg (the "Service" )operated by{" "}
-          <span className="text-green-900 font-bold">Lupleg</span>
+          <span className="text-green-700 font-bold">Lupleg</span>
           ("us","we",or "our").
         </p>
         <h3 className="text-lg sm:text-xl md:text-2xl font-bold mt-4 mb-2">
