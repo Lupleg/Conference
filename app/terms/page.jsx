@@ -130,10 +130,10 @@ export default function TermsPage() {
         </div>
         <div className="mt-8">
           <div className="flex flex-col sm:flex-row justify-center space-y-6 sm:space-y-0 sm:space-x-6">
-            <button className="border border-orange-200 text-black px-10 py-2 rounded-full font-medium bg-orange-100">
+            <button className="border border-orange-200 text-black px-6 py-2 sm:px-10 rounded-full font-medium bg-orange-100 text-sm sm:text-base">
               Accept
             </button>
-            <button className="border border-gray-500 text-white px-10 py-2 rounded-full font-medium bg-black">
+            <button className="border border-gray-500 text-white px-6 py-2 sm:px-10 rounded-full font-medium bg-black text-sm sm:text-base">
               Decline
             </button>
           </div>
