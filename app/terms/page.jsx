@@ -3,9 +3,9 @@ import React from "react";
 export default function TermsPage() {
   return (
     <div className="min-h-screen bg-orange-100 flex items-center justify-center p-4">
-      <div className="bg-black text-white p-6 sm:p-8 md:p-10 lg:p-12 shadow-lg w-full max-w-7xl rounded-lg flex flex-col justify-between">
+      <div className="bg-black text-white p-6 sm:p-8 md:p-10 lg:p-12 shadow-lg w-full max-w-7xl rounded-lg flex flex-col justify-between mt-20">
         <div>
-          <h1 className="text-3xl sm:text-4xl font-bold mb-6 sm:mb-8 text-center">
+          <h1 className="text-3xl sm:text-5xl font-bold mb-6 sm:mb-8 text-center">
             Terms and Conditions
           </h1>
           <div className="flex flex-col lg:flex-row">
