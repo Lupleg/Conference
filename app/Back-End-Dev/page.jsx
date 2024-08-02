@@ -7,7 +7,7 @@ import { BsCheck2Square } from "react-icons/bs";
 
 export default function BackendDevelopment() {
   return (
-    <div className="flex flex-col items-center container px-4 mx-auto">
+    <div className="  flex flex-col items-center container px-4 mx-auto">
       <h1 className="bg-gradient-to-br from-red-500 to-purple-600 text-transparent bg-clip-text shadow-lg text-center text-4xl font-bold tracking-tight md:text-5xl mt-10 mb-12 p-4 rounded-lg">
         Backend Development
       </h1>
