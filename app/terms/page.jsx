@@ -2,21 +2,19 @@ import React from "react";
 
 export default function TermsPage() {
   return (
-    <div className="min-h-screen bg-orange-100 flex items-center justify-center p-4">
-      <div className="bg-black text-white p-6 sm:p-8 md:p-10 lg:p-12 shadow-lg w-full max-w-7xl rounded-lg flex flex-col justify-between mt-20">
+    <div className="min-h-screen bg-orange-100 flex flex-col items-center justify-center p-4">
+      <div className="bg-gray-900 text-white p-6 sm:p-8 md:p-10 lg:p-12 shadow-lg w-full max-w-7xl rounded-lg flex flex-col justify-between mt-10">
         <div>
           <h1 className="text-3xl sm:text-5xl font-bold mb-6 sm:mb-8 text-center">
-            Terms and Conditions
+            Terms & Conditions
           </h1>
           <div className="flex flex-col lg:flex-row">
             <aside className="lg:w-1/3 lg:pr-8 mb-6 lg:mb-0">
-              <p className="mb-4 text-lg sm:text-xl">
+              <p className="mb-4 text-lg sm:text-xl ">
                 These Terms and Conditions ("Terms", "Terms and Conditions")
-                govern your relationship with
-                <span className="text-green-500 font-semibold">
-                  Lupleg
-                </span>{" "}
-                (the "Service") operated by Lupleg ("us", "we", or "our").
+                govern your relationship with{" "}
+                <span className="text-grey-900 font-bold">Lupleg</span> (the
+                "Service") operated by Lupleg ("us", "we", or "our").
               </p>
               <h3 className="text-xl sm:text-2xl lg:text-3xl">
                 1. Introduction
@@ -130,10 +128,10 @@ export default function TermsPage() {
         </div>
         <div className="mt-8">
           <div className="flex flex-col sm:flex-row justify-center space-y-6 sm:space-y-0 sm:space-x-6">
-            <button className="border border-orange-200 text-black px-6 py-2 sm:px-10 rounded-full font-medium bg-orange-100 text-sm sm:text-base">
+            <button className="text-black px-6 py-2 sm:px-10 rounded-full font-medium bg-orange-100 text-sm sm:text-base hover:bg-orange-200">
               Accept
             </button>
-            <button className="border border-gray-500 text-white px-6 py-2 sm:px-10 rounded-full font-medium bg-black text-sm sm:text-base">
+            <button className="text-white px-6 py-2 sm:px-10 rounded-full font-medium bg-black text-sm sm:text-base hover:bg-orange-200">
               Decline
             </button>
           </div>
