@@ -18,7 +18,7 @@ export default function FreelanceHustle() {
       />
 
       <div className="max-w-2xl flex-1 [&>p]:mb-6 [&>h2]:text-green-800 [&>h2]:text-xl [&>h2]:font-bold [&>h2]:border-l-4 [&>h2]:border-green-800 [&>h2]:pl-3 [&>h2]:bg-gray-100 [&>h2]:py-2 [&>h2]:mb-4 [&>ul>li]:mb-4">
-        <p>
+        <p className="text-md md:text-lg xl:text-lg">
           The Master Your Freelance Hustle Mentorship is a 3-month program
           designed to help you become a successful freelancer. You will learn
           how to find clients, negotiate contracts, and deliver high-quality
@@ -29,7 +29,7 @@ export default function FreelanceHustle() {
           freelancer.
         </p>
         <h2>Program Structure:</h2>
-        <p>
+        <p className="text-md md:text-lg xl:text-lg">
           The program is divided into three core months, each focusing on a
           specific stage of your freelance journey:
         </p>
@@ -49,7 +49,7 @@ export default function FreelanceHustle() {
         <p>
           Each week will consist of a combination of the following elements:
         </p>
-        <ul className="px-6 py-2 list-disc">
+        <ul className="px-6 py-2 text-md md:text-lg xl:text-lg leading-7 list-disc">
           <li>
             Workshops: Interactive sessions led by the mentor covering key
             topics relevant to the program theme for that month. (e.g., Setting
@@ -82,7 +82,7 @@ export default function FreelanceHustle() {
           freelancer. You'll solidify your niche, define your goals, and
           establish the core elements of your freelance business.
         </p>
-        <ul className="py-6 list-disc">
+        <ul className="py-6 text-md md:text-lg xl:text-lg leading-7 list-disc">
           <li>
             Week 1: Introduction to Freelancing - Understanding the freelance
             landscape, identifying your niche, and setting freelancing goals.
@@ -107,7 +107,7 @@ export default function FreelanceHustle() {
           clients, building strong relationships, and delivering exceptional
           work.
         </p>
-        <ul className="py-6 list-disc">
+        <ul className="py-6 text-md md:text-lg xl:text-lg leading-7 list-disc">
           <li>
             Week 5: Client Acquisition Strategies - Exploring various methods to
             attract high-quality clients, including networking, cold emailing,
@@ -135,7 +135,7 @@ export default function FreelanceHustle() {
           Month 3 equips you with the tools to grow your business sustainably
           and achieve your long-term freelance goals.
         </p>
-        <ul className="py-6 list-disc">
+        <ul className="py-6 text-md md:text-lg xl:text-lg leading-7 list-disc">
           <li>
             Week 9: Streamlining Your Workflow - Implementing time-saving
             techniques and productivity hacks to optimize your workflow.
@@ -156,7 +156,7 @@ export default function FreelanceHustle() {
         </ul>
         <div className="border-l-4 border-orange-800 p-2  bg-green-100">
           <h2>Additional Resources:</h2>
-          <p>
+          <p className="text-md md:text-lg xl:text-lg">
             Throughout the program, you'll also have access to a comprehensive
             resource library that includes templates, worksheets, and other
             helpful materials to support your learning journey. 
