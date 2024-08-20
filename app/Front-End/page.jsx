@@ -94,38 +94,38 @@ export default function FrontendDevelopment() {
 
         <ul className="px-6 py-2 list-none  leading-7 text-gray-800 border border-white shadow-lg rounded-lg my-4">
           <li className="flex items-start py-2">
-            <span className="text-orange-800">
+            <span className="text-green-950">
               ✅ Week 1-2: HTML and CSS Basics
             </span>
           </li>
           <li className="flex items-start py-2">
-            <span className="text-orange-800">
+            <span className="text-green-950">
               ✅ Week 3-4: JavaScript Fundamentals
             </span>
           </li>
-          <li className="flex items-start py-2">
-            <span className="text-orange-800">
+          <li className="flex text-green-950 py-2">
+            <span className="text-green-950">
               ✅ Week 5-6: DOM Manipulation and Event Handling
             </span>
           </li>
           <li className="flex items-start py-2">
-            <span className="text-orange-800">
+            <span className="text-green-950">
               ✅ Week 7-8: Introduction to React
             </span>
           </li>
           <li className="flex items-start py-2">
-            <span className="text-orange-800">
+            <span className="text-green-950">
               ✅ Week 9-10: Advanced React Concepts and Project Work
             </span>
           </li>
           <li className="flex items-start py-2">
-            <span className="text-orange-800">
+            <span className="text-green-950">
               ✅ Week 11-12: Build Tools and Deployment
             </span>
           </li>
         </ul>
 
-        <h2 className="text-green-700 text-lg md:text-xl lg:text-xl    font-mono font-bold p-1 mb-2 ">
+        <h2 className="text-black text-lg md:text-xl lg:text-xl    font-mono font-bold p-1 mb-2 ">
           <span className="bg-green-100 rounded-md p-1 px-2 my-6">
             {" "}
             Month 1:{" "}
@@ -137,7 +137,7 @@ export default function FrontendDevelopment() {
           developer. You'll solidify your understanding of HTML and CSS, learn
           the basics of JavaScript, and start building interactive web pages.
         </p>
-        <h2 className="text-green-700 font-mono  font-bold my-2 mt-4">
+        <h2 className="text-black font-mono  font-bold my-2 mt-4">
           <span className="bg-orange-100 rounded-md p-2 ">Week 1-2:</span> HTML
           and CSS Basics
         </h2>
@@ -148,7 +148,7 @@ export default function FrontendDevelopment() {
           <li>Project: Personal portfolio website</li>
         </ul>
 
-        <h2 className="text-green-700  font-mono font-bold mt-4 my-2">
+        <h2 className="text-black  font-mono font-bold mt-4 my-2">
           <span className="bg-orange-100  rounded-md p-2 ">Week 3-4:</span>{" "}
           JavaScript Fundamentals
         </h2>
@@ -159,11 +159,11 @@ export default function FrontendDevelopment() {
           <li>Project: Interactive web elements</li>
         </ul>
 
-        <h2 className="text-green-700  text-lg md:text-xl lg:text-xl  font-mono font-bold p-1 mb-2 ">
+        <h2 className="text-black  text-lg md:text-xl lg:text-xl  font-mono font-bold p-1 mb-2 ">
           <span className="bg-green-100  rounded-md p-1 my-4"> Month 2: </span>{" "}
           Advanced concepts and Frameworks{" "}
         </h2>
-        <h2 className="text-green-700   font-mono font-bold my-2 mt-4">
+        <h2 className="text-black   font-mono font-bold my-2 mt-4">
           <span className="bg-orange-100 rounded-md p-1 ">Week 5-6:</span>{" "}
           Advanced JavaScript and ES6+
         </h2>
@@ -174,7 +174,7 @@ export default function FrontendDevelopment() {
           <li>Project: Weather app using APIs</li>
         </ul>
 
-        <h2 className="text-green-700  font-mono font-bold my-2 mt-4">
+        <h2 className="text-black  font-mono font-bold my-2 mt-4">
           <span className="bg-orange-100 rounded-md p-1 ">Week 7-8:</span>
           Introduction to React
         </h2>
@@ -186,14 +186,14 @@ export default function FrontendDevelopment() {
           <li>Project: TODO list app</li>
         </ul>
 
-        <h2 className="text-green-700 text-lg md:text-xl lg:text-xl font-mono font-bold my-6">
+        <h2 className="text-black text-lg md:text-xl lg:text-xl font-mono font-bold my-6">
           <span className="bg-green-100  rounded-md p-1 my-2 mt-4">
             {" "}
             Month 3:{" "}
           </span>{" "}
           Advanced React and Professional Development
         </h2>
-        <h2 className="text-green-700  font-mono font-bold my-2 mt-4">
+        <h2 className="text-black font-mono font-bold my-2 mt-4">
           <span className="bg-orange-100 rounded-md p-1 ">Week 9-10:</span>{" "}
           Advanced React and State Management
         </h2>
@@ -204,7 +204,7 @@ export default function FrontendDevelopment() {
           <li>Project: Ecommerce Website</li>
         </ul>
 
-        <h2 className="text-green-700  font-mono font-bold my-2 mt-4">
+        <h2 className="text-black font-mono font-bold my-2 mt-4">
           <span className="bg-orange-100 rounded-md p-1 ">Week 11-12:</span>{" "}
           Build Tools and Deployment
         </h2>
